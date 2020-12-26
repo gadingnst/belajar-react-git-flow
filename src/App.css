@@ -39,9 +39,14 @@
 
 .btn-primary {
   color: antiquewhite;
-  background-color: blueviolet;
+  background-color: chocolate;
   margin: 8px 0;
   padding: 8px 10px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: antiquewhite;
+  color: chocolate;
 }
