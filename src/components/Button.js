@@ -1,11 +1,16 @@
 import React from 'react'
 
 class Button extends React.Component {
+  static defaultProps = {
+    className: ''
+  }
+
   render() {
+    const { className } = this.props
     return (
-      <button>
+      <div className={className}>
         Buttton
-      </button>
+      </div>
     )
   }
 }
